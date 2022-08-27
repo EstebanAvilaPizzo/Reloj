@@ -1,0 +1,68 @@
+body{
+    background: #000;
+}
+
+main{
+    min-height: 100vh;
+}
+
+.fecha{
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+}
+
+.hora{
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4em;
+    letter-spacing: 0.1em;
+}
+
+/* efecto neon */
+.green{
+   text-shadow: 0 0 5px #7bffce,
+   0 0 10px  #7bffce,
+   0 0 20px  #7bffce,
+   0 0 40px  #7bffce,
+   0 0 80px  #7bffce,
+   0 0 100px  #7bffce;
+}
+
+.blue{
+    text-shadow: 0 0 5px #7bacff,
+    0 0 10px  #7bacff,
+    0 0 20px  #7bacff,
+    0 0 40px  #7bacff,
+    0 0 80px  #7bacff,
+    0 0 100px  #7bacff;
+ }
+
+ .pink{
+    text-shadow: 0 0 5px #ff7bac,
+    0 0 10px  #ff7bac,
+    0 0 20px  #ff7bac,
+    0 0 40px  #ff7bac,
+    0 0 80px  #ff7bac,
+    0 0 100px  #ff7bac;
+ }
+
+/* botones */
+.boton{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.btn-green{
+  background:#7bffce ;  
+}
+
+.btn-blue{
+ background: #7bacff;
+}
+
+.btn-pink{
+ background: #ff7bac;
+}
